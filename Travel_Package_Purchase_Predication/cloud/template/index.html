@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Package Prediction</title>
+    <link rel="stylesheet" href="/staticFiles/stl.css">
+</head>
+<body>
+    <form action="{{url_for('predict')}}" method="post">
+        <input type="text" placeholder="Age" name="Age">
+        <input type="text" placeholder="DurationOfPitch" name="DurationOfPitch">
+        <input type="text" placeholder="NumberOfTrips" name="NumberOfTrips">
+        <input type="text" placeholder="MonthlyIncome" name="MonthlyIncome">
+      
+      
+        <h3> Type of Contact </h3>
+        <select name="TypeofContact" id="research" required = "required">
+            <option value="0">Company Invited</option>
+            <option value="1">Self Enquiry</option>
+        </select>
+
+        <h3> City Tier </h3>
+        <select name="CityTier" id="research" required = "required">
+            <option value="1">Tier_1</option>
+            <option value="2">Tier_2</option>
+            <option value="3">Tier_3</option>
+        </select>
+
+        <h3> Occupation </h3>
+        <select name="Occupation" id="research" required = "required">
+            <option value="0">Free Lancer</option>
+            <option value="1">Salaried</option>
+            <option value="2">Small Business</option>
+            <option value="3">Large Business</option>
+        </select>
+
+        <h3> Gender </h3>
+        <select name="Gender" id="research" required = "required">
+            <option value="0">Female Graduate</option>
+            <option value="1">Male</option>
+        </select>
+
+        <h3> Number Of Person Visiting </h3>
+        <select name="NumberOfPersonVisiting" id="research" required = "required">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select>
+
+        <h3> Number Of Follow ups </h3>
+        <select name="NumberOfFollowups" id="research" required = "required">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">six</option>
+        </select>
+
+        <h3> Product Pitched </h3>
+        <select name="ProductPitched" id="research" required = "required">
+            <option value="0">Basic</option>
+            <option value="1">Deluxe</option>
+            <option value="3">King</option>
+            <option value="4">Standard</option>
+            <option value="5">Super Deluxe</option>
+        </select>
+
+        <h3> Preferred Property Star </h3>
+        <select name="PreferredPropertyStar" id="research" required = "required">
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select>
+
+        <h3> Marital Status </h3>
+        <select name="MaritalStatus" id="research" required = "required">
+            <option value="0">Divorced</option>
+            <option value="1">Married</option>
+            <option value="2">Unmarried</option>
+        </select>
+
+        <h3> Passport </h3>
+        <select name="Passport" id="research" required = "required">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <h3> Pitch Satisfaction Score </h3>
+        <select name="PitchSatisfactionScore" id="research" required = "required">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <h3> Own Car </h3>
+        <select name="OwnCar" id="research" required = "required">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <h3> Number Of Children Visiting </h3>
+        <select name="NumberOfChildrenVisiting" id="research" required = "required">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <h3> Designation </h3>
+        <select name="Designation" id="research" required = "required">
+            <option value="1">Executive</option>
+            <option value="2">VP</option>
+            <option value="3">AVP</option>
+            <option value="4">Senior Manager</option>
+            <option value="5">Manager</option>
+        </select>
+
+        <br><br><button id="sub" type="submit">Prediction</button>
+        <br>
+    </form>
+
+    <br><br>
+    {{prediction_text}}
+
+</body>
+</html>
