@@ -16,6 +16,17 @@ The goal is to predict whether the customer will purchase the travel or not.
 ![image](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/8cb82937-0527-448e-be52-5a0276335bbd)
 
 ##### 1) DATA COLLECTION AND INSERTION
+          * LINK
+##### 2) UNDERSTANDING OF DATA
+
+          * Checking for size of data
+          * Checking for statistical description of data
+          * Checking for data types of columns
+          * Value counts for categorical columns
+
+##### 3) DATA - PREPROCESSING
+
+
 
 
 
