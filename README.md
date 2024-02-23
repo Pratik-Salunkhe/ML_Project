@@ -31,7 +31,9 @@ The goal is to predict whether the customer will purchase the travel or not.
           * Handling Class Imbalance
 ##### 4) EXPLORATORY DATA ANALYSIS AND VISUALIZATION
           * Visualizations of each categorical features
-          C:\Users\Admin\AppData\Local\Temp\0eb7302e-4d3a-4402-8508-3c5ad6d304ff_Travel_package_prediction.zip.4ff\Travel_package_prediction\countplot_categorical_features_w_target_variable\countplot_categorical_features_w_target_variable.png
+
+![countplot_categorical_features](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/f971fab8-22b7-443c-b065-9affdcd58af5)
+
           ### Observation:
               1. **Self Enquiry** is has been done by most of the customers
               2. Most of the Customers are **Salaried and Small Bussiness**.
