@@ -43,6 +43,38 @@ The goal is to predict whether the customer will purchase the travel or not.
               6. Destination of Most of the Customer is **Executive** and **Manager** and Less is **VP**.
 
 
+          * Visualizations of each categorical features with Target variable   *** NOTE : IMAGES Are in github Repo ***
+
+          ### Observation:
+
+              1. **Basic product Pitch**  Purchase More packages compare with their count.
+              2.  **Unmarried**  Purchase More packages compare with their count.
+              3.  **Manager**  Purchase More packages compare with their count.
+              4. Rest of all are purchasing package in very normal according to their count.
+
+          * Visualizations of each numerical continuous features  *** NOTE : IMAGES Are in github Repo ***
+
+          ### Observation :
+    
+              1. Most of the customers between **26-35** age and **36-45** age group purchase the package most 
+              2. Most Customer are from duration of 5-15 Duration of Pitch
+              3. Best rate of purchasing Package is from 25-35 Duration of Pitch
+              
+          * Visualizations of each numerical discrete features  *** NOTE : IMAGES Are in github Repo ***
+
+#### MODEL BUILDING EVALUATION :
+  We experimented with algorithms like Logistic Regression, Decision Trees, Random Forests, and K-Nearest Neighbors (KNN). Despite encountering over-fitting with some models, we achieved improved precision through techniques like SMOTE for handling imbalanced data.
+  
+#### PERFORMANCE METRICS AND TUNING :
+  We assessed model performance using accuracy and precision metrics, with KNN emerging as the best-performing model after hyper-parameter tuning. Randomized Cross Validation (RandomizedCV) aided in comparing and selecting the optimal model.
+
+  ![performance Tabulation1](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/b74e34ae-9343-41c9-b745-c1dd173474ca)
+
+## CONCLUSION :
+
+![image](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/a6295e4f-9819-461b-9dcb-2b67cbf0c509)
+
+  
 
 
 
@@ -50,3 +82,4 @@ The goal is to predict whether the customer will purchase the travel or not.
 
 
 
+  
