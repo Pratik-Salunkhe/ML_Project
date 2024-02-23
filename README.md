@@ -72,7 +72,7 @@ The goal is to predict whether the customer will purchase the travel or not.
 
 ## CONCLUSION :
 
-  ###### Our project demonstrates the potential of machine learning in forecasting customer behavior for tourism companies. By leveraging advanced techniques and thorough analysis, we enable businesses to make informed decisions and enhance marketing strategies in the dynamic tourism landscape.
+  ### Our project demonstrates the potential of machine learning in forecasting customer behavior for tourism companies. By leveraging advanced techniques and thorough analysis, we enable businesses to make informed decisions and enhance marketing strategies in the dynamic tourism landscape.
 
 
 ![image](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/a6295e4f-9819-461b-9dcb-2b67cbf0c509)
