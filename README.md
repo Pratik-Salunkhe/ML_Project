@@ -13,7 +13,10 @@ The goal is to predict whether the customer will purchase the travel or not.
 
 ## ARCHITECTURE :
 
-![image](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/e73f279b-be3a-4311-a076-53d0d734d7f7)
+![image](https://github.com/Pratik-Salunkhe/ML_Project/assets/96179015/8cb82937-0527-448e-be52-5a0276335bbd)
+
+##### 1) DATA COLLECTION AND INSERTION
+
 
 
 
